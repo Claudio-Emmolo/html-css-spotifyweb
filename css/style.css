@@ -35,6 +35,11 @@ main section{
     border-radius: 50%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* ----------HEADER---------- */
 header{
     width: 233px;
@@ -104,6 +109,12 @@ main div.upgrade-bar{
     height: 80px;
     width: 100%;
     background-color: #141922;
+
+    justify-content: flex-end;
+}
+
+main div.upgrade-bar a{
+    margin-right: 2rem;
 }
 
 /* Section Disk Nav */
