@@ -72,6 +72,12 @@ div.disk-box{
     background-color: aqua;
 
     margin: .5rem;
+
+    text-align: center;
+}
+
+div.disk-box img{
+    width: 100%;
 }
 
 
