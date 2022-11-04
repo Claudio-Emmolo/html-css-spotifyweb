@@ -19,6 +19,10 @@
     align-items: center;   
 }
 
+.flex-around{
+    justify-content: first baseline;
+}
+
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -54,17 +58,20 @@ section#disk{
     width: 100%;
 }
 
+div.disk-col{}
+
 div.disk-row{
-    border: 1px solid red;
-    flex-wrap: wrap;
+    width: calc(100% / 3);
+    /* border: 1px solid red; */
+    flex-wrap: nowrap;
 }
 
 div.disk-box{
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 300px;
     background-color: aqua;
 
-    margin: 0 .5rem;
+    margin: .5rem;
 }
 
 

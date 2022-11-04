@@ -3,4 +3,20 @@
 ----------------------------------- */
 @media screen and (max-width: 1200px) {
 
+ /* ----------HEADER---------- */
+
+
+/* ----------MAIN---------- */
+
+/* Section Disk */
+div.disk-col{
+    flex-wrap: wrap;
+}
+
+div.disk-row{
+    width: calc(100% / 2);
+}
+
+
+/* ----------FOOTER---------- */
 }

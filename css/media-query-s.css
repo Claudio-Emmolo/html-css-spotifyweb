@@ -2,5 +2,16 @@
     DISPAY S
 ----------------------------------- */
 @media screen and (max-width: 992px) {
+/* ----------HEADER---------- */
+
+
+/* ----------MAIN---------- */
+
+/* Section Disk */
+div.disk-row{
+    width: 100%;
+}
+
+/* ----------FOOTER---------- */
 
 }
