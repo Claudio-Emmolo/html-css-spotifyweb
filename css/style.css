@@ -20,7 +20,7 @@
 }
 
 .flex-around{
-    justify-content: first baseline;
+    justify-content: space-around;
 }
 
 .flex-wrap{
@@ -28,7 +28,11 @@
 }
 
 section{
-    margin: 3rem 0;
+    margin: 5rem 0;
+}
+
+.img-circle{
+    border-radius: 50%;
 }
 
 /* ----------HEADER---------- */
@@ -55,6 +59,17 @@ main div.upgrade-bar{
     height: 80px;
     width: 100%;
     background-color: #141922;
+}
+
+/* Section Disk Nav */
+nav.disk-nav-bar ul{
+    flex-wrap: wrap;
+}
+
+nav.disk-nav-bar ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 1rem 2rem;
 }
 
 /* Section Disk */
