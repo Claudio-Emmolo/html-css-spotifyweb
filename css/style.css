@@ -10,3 +10,43 @@
 }
 
 /* -----GENERAL----- */
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;   
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* ----------HEADER---------- */
+header{
+    width: 233px;
+    height: calc(100vh - 120px);
+    background-color: black;
+}
+
+
+/* ----------MAIN---------- */
+main{
+    flex-grow: 1;
+    background-color: grey;
+
+    overflow-y: scroll;
+}
+
+
+/* ----------FOOTER---------- */
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
