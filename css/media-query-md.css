@@ -9,12 +9,12 @@
 /* ----------MAIN---------- */
 
 /* Section Disk */
-div.disk-col{
+div.disk-row{
     flex-wrap: wrap;
 }
 
-div.disk-row{
-    width: calc(100% / 2);
+div.disk-box{
+    width: calc((100% / 4) - 1rem);
 }
 
 

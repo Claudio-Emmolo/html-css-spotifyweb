@@ -8,8 +8,8 @@
 /* ----------MAIN---------- */
 
 /* Section Disk */
-div.disk-row{
-    width: 100%;
+div.disk-box{
+    width: calc((100% / 2) - 1rem);
 }
 
 /* ----------FOOTER---------- */
