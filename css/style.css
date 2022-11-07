@@ -104,16 +104,25 @@ section#login{
 main{
     width: calc(100% - 233px);
     height: calc(100vh - 120px);
-    background-color: grey;
+    background-color: #141922;
 
     padding-bottom: 150px;
     overflow-y: auto;
 }
 
+main section{
+    padding: 0 1rem;
+}
+
+main section h2{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+/* Upgrade Bar */
 main div.upgrade-bar{
     height: 80px;
     width: 100%;
-    background-color: #141922;
+    background-color: #080B12;
 
     justify-content: flex-end;
 }
@@ -138,15 +147,14 @@ section#disk{
     width: 100%;
 }
 
+
 div.disk-row{
     width: 100%;
-    border: 1px solid red;
     flex-wrap: nowrap;
 }
 
 div.disk-box{
     width: calc((100% / 6) - .5rem );
-    background-color: aqua;
 
     margin: .5rem;
 
@@ -155,6 +163,14 @@ div.disk-box{
 
 div.disk-box img{
     width: 100%;
+}
+
+div.disk-row h3{
+
+}
+
+div.disk-row h4{
+    color: #707378;
 }
 
 /* Disk Nav Hover */
