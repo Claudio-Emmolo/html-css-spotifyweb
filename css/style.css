@@ -349,7 +349,7 @@ div.footer-right{
 div.footer-center{
     width: 40%;
     height: 100%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 /* LEFT */
@@ -382,3 +382,66 @@ div.footer-left-icon i:hover{
 }
 
 /* CENTER */
+div.footer-center{
+    align-items: space-around;
+    padding: 1rem;
+}
+
+div.top-section i{
+    font-size: 1.5rem;
+    margin: 1rem .5rem;
+}
+
+div.bottom-section{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+div.bottom-section div.timeline{
+    width: 70%;
+    height: 3px;
+    background-color: var(--txt-subtitle-color);
+    margin: 0 1rem;
+
+    cursor: pointer;
+}
+
+div.timeline div.timeline-scroll{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+
+}
+
+div.timeline div.timeline-scroll-hover{
+    width: 30%;
+    height: 100%;
+    background-color: var(--spotify-green);
+    display: none;
+
+    
+    position: relative;
+}
+
+div.timeline-scroll-hover div.timeline-circle{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    display: none;
+}
+
+div.timeline:hover div.timeline-scroll-hover,
+div.timeline:hover div.timeline-circle{
+    display: block;
+}
+
+div.timeline:hover div.timeline-scroll{
+    display: none;
+}
