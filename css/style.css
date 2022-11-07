@@ -390,6 +390,11 @@ div.footer-center{
 div.top-section i{
     font-size: 1.5rem;
     margin: 1rem .5rem;
+    cursor: pointer;
+}
+
+div.top-section i:hover{
+    transform: scale(1.2);
 }
 
 div.bottom-section{
