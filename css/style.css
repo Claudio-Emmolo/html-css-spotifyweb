@@ -49,6 +49,7 @@ a{
 header{
     width: 233px;
     height: calc(100vh - 120px);
+    min-height: 770px;
     background-color: black;
     color: white;
 
@@ -69,22 +70,37 @@ header img.logo-small{
 nav.main-nav{
     margin: 2rem 0;
 }
+
 nav.main-nav ul li{
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding-left: 1rem;
-    margin: .5rem 0;
+    margin: .8rem 0;
+}
+
+nav.main-nav ul li img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+li.not-active{
+    color: var(--txt-subtitle-color);
+}
+
+li.active{
+    color: white;
 }
 
 /* Playlist */
 section#playlist{
     margin: .5rem 0;
+    padding-left: 1rem;
 }
 
 section#playlist ul li{
+    color: var(--txt-subtitle-color);
     list-style: none;
     font-size: 1.5rem;
-    padding-left: 1rem;
     margin: .5rem 0;
 }
 

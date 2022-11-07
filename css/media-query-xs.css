@@ -36,6 +36,10 @@ nav.main-nav ul li span.txt-nav{
     display: none;
 }
 
+span.txt-nav{
+    display: none;
+}
+
 /* Playlist */
 section#playlist{
     display: none;
