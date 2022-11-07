@@ -397,7 +397,7 @@ div.bottom-section{
     margin-bottom: 2rem;
 }
 
-div.bottom-section div.timeline{
+div.timeline{
     width: 70%;
     height: 3px;
     background-color: var(--txt-subtitle-color);
@@ -444,4 +444,20 @@ div.timeline:hover div.timeline-circle{
 
 div.timeline:hover div.timeline-scroll{
     display: none;
+}
+
+/* RIGHT */
+
+div.footer-right{
+    justify-content: flex-end;
+}
+
+div.footer-right i{
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+div.footer-right div.volume{
+    width: 20%;
 }
