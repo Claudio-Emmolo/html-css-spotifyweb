@@ -130,6 +130,17 @@ main div.upgrade-bar{
 
 main div.upgrade-bar a{
     margin-right: 2rem;
+    padding: .5rem 2rem;
+    border: 1px solid white;
+    border-radius: 5rem;
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main div.upgrade-bar a:hover{
+    background-color: white;
+    color: black;
 }
 
 /* Section Disk Nav */
