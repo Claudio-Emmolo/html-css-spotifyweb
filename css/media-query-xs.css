@@ -45,6 +45,29 @@ section#playlist{
     display: none;
 }
 
+
+/* Login */
+section#login{
+    margin-bottom: 1rem;
+}
+
+
+section#login span,
+div.separator{
+    display: none;
+}
+
+section#login img{
+    margin-top: 2rem;
+}
+
+div.install,
+div.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ----------MAIN---------- */
 main{
     flex-grow: 1;

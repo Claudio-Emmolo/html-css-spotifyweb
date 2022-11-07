@@ -49,7 +49,7 @@ a{
 header{
     width: 233px;
     height: calc(100vh - 120px);
-    min-height: 770px;
+    min-height: 710px;
     background-color: black;
     color: white;
 
@@ -124,14 +124,44 @@ section#playlist ul li i:hover{
 /* Login */
 section#login{
     width: 100%;
-    height: 120px;
-    background-color: red;
 
     position: absolute;
     bottom: 0;
     left: 0;
+
+    padding: 0 1rem .2rem;
 }
 
+div.install{
+    color: var(--txt-subtitle-color);
+}
+
+div.install img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+div.separator{
+    height: 1px;
+    background-color: var(--txt-subtitle-color);
+    margin: .8rem 0;
+}
+
+div.user{
+    margin-bottom: .5rem;
+}
+
+div.user img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background-color: var(--txt-subtitle-color);
+    border-radius: 50%;
+}
+
+div.user span{
+    font-weight: bold;
+}
 
 /* ----------MAIN---------- */
 main{
