@@ -29,6 +29,10 @@ body{
     justify-content: space-around;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -276,6 +280,8 @@ div.disk-box{
 
 div.disk-box img{
     width: 100%;
+    display: block;
+
 }
 
 div.disk-row h3{
@@ -328,7 +334,7 @@ p.grey-subtitle{
 footer{
     width: 100%;
     height: 120px;
-    background-color: blue;
+    background-color: #282828;
     
     position: fixed;
     bottom: 0;
@@ -338,7 +344,6 @@ div.footer-left,
 div.footer-right{
     width: 30%;
     height: 100%;
-    background-color: brown;
 }
 
 div.footer-center{
@@ -346,3 +351,34 @@ div.footer-center{
     height: 100%;
     background-color: chartreuse;
 }
+
+/* LEFT */
+div.footer-left{
+    justify-content: flex-start;
+}
+
+div.footer-left img{
+   height: 50%;
+   margin: 0 .5rem;
+}
+
+div.footer-play-name p{
+    color: var(--txt-subtitle-color);
+}
+
+div.footer-left-icon{
+    margin: 0 2rem;
+}
+
+div.footer-left-icon i{
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    color: var(--txt-subtitle-color);
+    cursor: pointer;
+}
+
+div.footer-left-icon i:hover{
+    color: white
+}
+
+/* CENTER */

@@ -14,4 +14,8 @@ div.disk-box{
 
 /* ----------FOOTER---------- */
 
+/* LEFT */
+div.footer-left-icon{
+    margin: 0 .5rem;
+}
 }
