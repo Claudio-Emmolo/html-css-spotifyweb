@@ -166,10 +166,12 @@ div.disk-box img{
 }
 
 div.disk-row h3{
-
+    margin-top: 1rem;
 }
 
-div.disk-row h4{
+div.disk-row h4,
+.grey-subtitle{
+    margin-top: .5rem;
     color: #707378;
 }
 
@@ -202,6 +204,11 @@ div.circle-hover{
 
 div.disk-hover:hover div.play-hover{
     display: flex;
+}
+
+/* Section Create for you */
+section#create-for-you p.grey-subtitle{
+    margin-bottom: 1.5rem
 }
 
 /* ----------FOOTER---------- */
