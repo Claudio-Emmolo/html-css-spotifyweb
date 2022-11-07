@@ -7,6 +7,7 @@
 
 :root{
     --txt-subtitle-color: #707378;
+    --spotify-green: #b3ff2f;
 }
 
 body{
@@ -45,6 +46,10 @@ a{
     color: white;
 }
 
+.relative{
+    position: relative;
+}
+
 /* ----------HEADER---------- */
 header{
     width: 233px;
@@ -76,6 +81,11 @@ nav.main-nav ul li{
     font-size: 1.3rem;
     padding-left: 1rem;
     margin: .8rem 0;
+    cursor: pointer;
+}
+
+nav.main-nav ul li:hover{
+    color: white;
 }
 
 nav.main-nav ul li img{
@@ -88,6 +98,7 @@ li.not-active{
 }
 
 li.active{
+    border-left: 3px solid var(--spotify-green);
     color: white;
 }
 
@@ -107,6 +118,11 @@ section#playlist ul li{
     list-style: none;
     font-size: 1.1rem;
     margin: .6rem 0;
+    cursor: pointer;
+}
+
+section#playlist ul li:hover{
+    color: white;
 }
 
 section#playlist ul li i{
@@ -117,7 +133,7 @@ section#playlist ul li i{
     cursor: pointer;
     vertical-align: middle;
 }
-section#playlist ul li i:hover{
+section#playlist ul li:hover i{
     background-color: white;
 }
 
@@ -139,6 +155,14 @@ div.install{
 div.install img{
     width: 20px;
     vertical-align: middle;
+}
+
+div.install img,
+div.install span{
+    cursor: pointer;
+}
+div.install span:hover{
+    color: white;
 }
 
 div.separator{
@@ -202,8 +226,7 @@ main div.upgrade-bar a{
 }
 
 main div.upgrade-bar a:hover{
-    background-color: white;
-    color: black;
+    transform: scale(1.2);
 }
 
 /* Section Disk Nav */
@@ -218,6 +241,18 @@ nav.disk-nav-bar ul li{
     font-weight: bold;
     color: var(--txt-subtitle-color);
     cursor: pointer;
+}
+
+nav.disk-nav-bar ul li:hover{
+    color: white;
+}
+
+div.disk-nav-bar-active{
+    height: 3px;
+    width: 40%;
+    background-color: var(--spotify-green);
+    margin: 0 auto;
+    margin-top: .2rem;
 }
 
 /* Section Disk */
