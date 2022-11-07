@@ -179,6 +179,11 @@ div.play-hover i{
     font-size: 4rem;
 }
 
+div.circle-hover{
+    border-radius: 50%;
+}
+
+
 div.disk-hover:hover div.play-hover{
     display: flex;
 }
