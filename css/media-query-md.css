@@ -2,10 +2,6 @@
     DISPAY MD
 ----------------------------------- */
 @media screen and (max-width: 1100px) {
-
- /* ----------HEADER---------- */
-
-
 /* ----------MAIN---------- */
 
 /* Section Disk */
@@ -17,6 +13,4 @@ div.disk-box{
     width: calc((100% / 4) - 1rem);
 }
 
-
-/* ----------FOOTER---------- */
 }

@@ -5,18 +5,17 @@
     box-sizing: border-box;
 }
 
+/* -----GENERAL----- */
 :root{
     --txt-subtitle-color: #707378;
     --spotify-green: #b3ff2f;
 }
 
 body{
-    /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-/* -----GENERAL----- */
 .flex{
     display: flex;
 }
