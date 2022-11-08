@@ -54,6 +54,12 @@ a{
     position: relative;
 }
 
+nav.main-nav ul li a,
+nav.disk-nav-bar ul li a{
+    color: var(--txt-subtitle-color);
+}
+
+
 /* ----------HEADER---------- */
 header{
     width: 233px;
@@ -88,7 +94,7 @@ nav.main-nav ul li{
     cursor: pointer;
 }
 
-nav.main-nav ul li:hover{
+nav.main-nav ul li a:hover{
     color: white;
 }
 
@@ -247,7 +253,7 @@ nav.disk-nav-bar ul li{
     cursor: pointer;
 }
 
-nav.disk-nav-bar ul li:hover{
+nav.disk-nav-bar ul li a:hover{
     color: white;
 }
 
